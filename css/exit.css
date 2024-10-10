@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(28, 2, 53);
+    font-family: "Tajawal", sans-serif;
+}
+.container{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.box{
+    margin-top: 100px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.title .ic{
+margin-left: auto;
+margin-right: 10px;
+
+width: 40%;
+}
+.title span{
+   background-color: white;
+   border-radius: 50%;
+padding: 3px 4px;
+
+/* font-size: 20px; */
+color: black;
+}
+.title .head{
+    margin-right: auto;
+width: 55%;
+    display: flex;
+    color: white;
+    padding: 0 0 5px 0;
+}
+
+.task-name{
+    width: 70%;
+}
+.buttuns{
+    padding-left: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.buttuns button{
+    margin-left: 25px;
+    padding: 10px;
+}
+@media (max-width : 768px){
+    .buttuns button{
+        margin-left: 5px;
+        padding: 7px;
+        margin-bottom: 5px;
+        transform: translateY(-10px);
+    }
+    .buttuns{
+        width: 40%;
+    }
+    h2{
+        font-size: 18px;
+    }
+p{
+    font-size: 16px;
+    width: auto;
+}
+.container{
+    width: 90%;
+}
+}
+.buttuns button:hover{
+    box-shadow: 2px 2px 15px -5px rgb(22, 22, 22);
+}
+.content:hover{
+box-shadow: 2px 2px 15px -2px rgb(22, 22, 22);
+}
+.content{
+    background-color: white; display: flex; justify-content: space-between; align-items: center; padding:  15px; border-bottom: 1px solid rgb(17, 17, 17); border-radius: 5px; margin-bottom: 10px;
+}
+.chek {
+    background-color: aquamarine;
+}
+
+
