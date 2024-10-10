@@ -85,6 +85,11 @@ p{
     width: 90%;
 }
 }
+@media (max-width: 992px) {
+    .container {
+      width: 90%;
+    }
+  }
 .buttuns button:hover{
     box-shadow: 2px 2px 15px -5px rgb(22, 22, 22);
 }
